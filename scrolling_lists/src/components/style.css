@@ -1,0 +1,22 @@
+.nav{
+    height: 56px;
+    background-color: rgb(47, 47, 239);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    background-color: #eaeed9;
+    border: none;
+    color: rgb(47, 47, 239);
+    padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+.btn:hover{
+    width: 200px;
+    background-color: rgb(227, 187, 200);
+}
