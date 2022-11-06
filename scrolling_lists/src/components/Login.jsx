@@ -23,6 +23,7 @@ export  function Login() {
     let username=data.get('username')
     let pass=data.get('password')
     if(username === "foo" && pass === "bar" ){
+      localStorage.setItem('auth','true')
       nav("/home")
     }else{
       alert("Invalid username or password")
