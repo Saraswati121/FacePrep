@@ -54,7 +54,7 @@ export const Home = () => {
                   <div className="textcol">{user.name.title} {user.name.first} {user.name.last}</div>
                   <div className="textcol">{user.email}</div>
                   <div className="textcol">{user.phone}</div>
-                  <div><img src={user.picture.thumbnail} alt="user" /></div>
+                  <div><img src={user.picture.thumbnail} alt="userimg" /></div>
                 </div>
               );
           })}
