@@ -11,7 +11,7 @@ export const Loader = () => {
   }, []);
   return (
     <RotatingLines
-      strokeColor='grey'
+      strokeColor='rgb(134, 65, 244)'
       strokeWidth='5'
       animationDuration='0.75'
       width='96'
